@@ -1,0 +1,19 @@
+2022/02/25 01:17:18 D:/000-Learn/random/log/main.go:16: error from main
+2022/02/25 01:17:37 main.go:16: error from main
+2022/02/25 01:21:14 main.go:17: error from main
+2022/02/25 01:21:14 main.go:18: from one
+2022/02/25 01:22:44 main.go:17: error from main
+2022/02/25 01:22:44 main.go:18: from one
+2022/02/25 01:22:46 main.go:17: error from main
+2022/02/25 01:22:46 main.go:18: from one
+2022/02/25 01:32:54 main.go:17: error from main
+2022/02/25 01:32:54 main.go:18: from one: <err>
+2022/02/25 01:51:50 main.go:17: error from main
+2022/02/25 01:51:50 main.go:18: from one: open asd.txt: The system cannot find the file specified.
+2022/02/25 01:52:18 main.go:17: error from main
+2022/02/25 01:52:18 main.go:18: one.go: open asd.txt: The system cannot find the file specified.
+2022/02/25 01:54:16 main.go:17: error from main
+2022/02/25 01:54:16 main.go:18: one.go: open asd.txt: The system cannot find the file specified.
+2022/02/25 01:54:38 main.go:17: error from main
+2022/02/25 01:54:38 main.go:18: one.go: open asd.txt: The system cannot find the file specified.
+2022/02/25 01:54:38 main.go:19: two.go: one.go: open asd.txt: The system cannot find the file specified.
