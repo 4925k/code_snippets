@@ -5,5 +5,5 @@ import "fmt"
 var NAME = "DIBEK"
 
 func MF() {
-	fmt.Println("Hello MADAFAKAAAAAAAAAAA")
+	fmt.Println("Hello From root hello package")
 }

@@ -32,8 +32,34 @@ type data struct {
 // }
 
 func main() {
-	parseJsonLogs()
+	parseConfigFile()
 }
+
+func parseConfigFile() {
+	cfgFile := "ebd.json"
+
+	content, err := os.ReadFile(cfgFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var x ConfigFiles
+	err = json.Unmarshal(content, &x)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(x)
+}
+
+type ConfigFiles []File
+
+// Configs will store the path to the config and email file.
+type File struct {
+	Config string `json:"config"`
+	Email  string `json:"emails"`
+}
+
 func checkErr(err error) {
 	if err != nil {
 		panic(err)

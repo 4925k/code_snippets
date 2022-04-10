@@ -1,10 +1,9 @@
-package nick
+package hello
 
 import (
 	"fmt"
-	"pkgTesting/hello"
 )
 
 func Nick() {
-	fmt.Println("Hello NICKKKKKKK", hello.NAME)
+	fmt.Println("Hello NICKKKKKKK")
 }

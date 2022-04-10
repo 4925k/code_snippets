@@ -8,21 +8,21 @@ import (
 	"strings"
 )
 
-func main() {
-	for _, value := range logs {
-		x, _ := ParseJson(value)
-		//CheckErr(err)
-		for k, v := range x {
-			if k == "srcip" {
+// func main() {
+// 	for _, value := range logs {
+// 		x, _ := ParseJson(value)
+// 		//CheckErr(err)
+// 		for k, v := range x {
+// 			if k == "srcip" {
 
-				fmt.Printf("key: %v Value: %v\n", k, v)
-				fmt.Printf("key: %T Value: %T\n", k, v)
-				fmt.Println(x[k])
-			}
-		}
+// 				fmt.Printf("key: %v Value: %v\n", k, v)
+// 				fmt.Printf("key: %T Value: %T\n", k, v)
+// 				fmt.Println(x[k])
+// 			}
+// 		}
 
-	}
-}
+// 	}
+// }
 
 func ParseSyslog(msg []byte) (map[string]interface{}, error) {
 	finalResult := make(map[string]interface{}, 1)

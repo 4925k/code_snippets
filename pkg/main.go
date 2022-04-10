@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 	"pkgTesting/hello"
-	"pkgTesting/hello/nick"
 )
 
 func main() {
-	fmt.Println("Heelo")
+	fmt.Println("Hello From Main")
 	hello.MF()
-	nick.Nick()
+	hello.Dibek()
 }
